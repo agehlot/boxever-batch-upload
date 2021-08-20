@@ -15,3 +15,4 @@ You need to follow the below steps to successfully upload the orders to Boxever.
 1. Follow the url you are getting from the response of this execution to check the status of uploaded batch file using Postman along with proper Authorization header. Something like this.
    https://api.boxever.com/v2/batches/86450d28-0cad-4128-8887-8a5b12f7aba7
 
+![image](https://user-images.githubusercontent.com/16397755/130176071-904ff601-77c6-4ec4-a8e9-cbc2d5cafe7e.png)
