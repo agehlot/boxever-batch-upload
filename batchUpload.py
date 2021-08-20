@@ -16,7 +16,7 @@ import os
 import requests
 import logging
 
-fileName = "batchUploadOrder.json.gz" ##sys.argv[1]
+fileName = sys.argv[1]
 clientKey = "psfu6uh05hsr9c34rptlr06dn864cqrx" ###sys.argv[2]
 apiToken = "uz9h803ertuvxcb9jh2cu05t87at85nl" ###sys.argv[3]
 endpoint="https://api.boxever.com/v2/batches"

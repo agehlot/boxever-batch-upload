@@ -11,7 +11,10 @@ You need to follow the below steps to successfully upload the orders to Boxever.
 1. Apply gzip compression on the **single line json** ```batchUploadOrder.json``` using 7-zip tool of any other tool that can produce .gz file like ```batchUploadOrder.json.gz```
 1. On the command prompt, reach to the current directory of these files
 1. Execute the below command to start the processing.
-   ```python batchUpload.py```
+   phthon.exe is the executable
+   batchUpload.py is python script
+   batchUploadOrder.json.gz is the file to be upload in .gz format
+   ```python.exe batchUpload.py batchUploadOrder.json.gz```
 1. Follow the url you are getting from the response of this execution to check the status of uploaded batch file using Postman along with proper Authorization header. Something like this.
    https://api.boxever.com/v2/batches/86450d28-0cad-4128-8887-8a5b12f7aba7
 
